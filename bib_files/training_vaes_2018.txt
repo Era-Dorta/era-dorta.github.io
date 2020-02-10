@@ -1,0 +1,7 @@
+@inproceedings{
+    Dorta2018TrainingVAEs,
+    title={Training VAEs Under Structured Residuals},
+    author={Dorta, Garoe and Vicente, Sara and Agapito, Lourdes and Campbell, Neill D. F. and Simpson, Ivor},
+    booktitle={arXiv preprint arXiv:1804.01050},
+    year={2018}
+}

@@ -1,0 +1,7 @@
+@inproceedings{
+    Dorta2019WarpGAN,
+    title={The GAN that Warped: Semantic Attribute Editing with Unpaired Data},
+    author={Dorta, Garoe and Vicente, Sara and Campbell, Neill D. F. and Simpson, Ivor},
+    booktitle={arXiv preprint arXiv:1811.12784},
+    year={2019}
+}
