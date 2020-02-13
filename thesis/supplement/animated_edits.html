@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Warping GAN</title>
+    <meta http-equiv="Content-type" content="text/html;charset=iso-8859-1"/>
+    <style>
+        h1, h2, h3, h4 {
+            text-align: center;
+        }
+
+        .content {
+            max-width: 1080px;
+            margin: auto;
+        }
+
+        .inline-block-child {
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>Structured uncertainty</h1>
+
+<!-- -->
+<!--Multiple samples CelebA -->
+<!-- -->
+<h2>Multiple residual samples</h2>
+
+<div class="content">
+    <div style="text-align:center">
+        <video controls loop width="1080" height="auto">
+            <source src="videos/structured/output.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        Rows top to bottom: input, mean (&#x1d6cd;),  residual (&#x1d6c6;), and reconstruction (&#x1d6cd; + &#x1d6c6;).
+    </div>
+</div>
+
+<!--Vertical spacing-->
+<br/> <br/> <br/> <br/>
+
+<h1>Warping GAN</h1>
+
+<!-- -->
+<!--Flickr HR-->
+<!-- -->
+<h2>Partial edits in high resolution</h2>
+
+<div class='parent'>
+    <div style="text-align:center">
+        <div class='child inline-block-child'>
+            <h3>Big Nose</h3>
+            <video controls loop width="540" height="auto">
+                <source src="videos/1/video_Big_Nose/output.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class='child inline-block-child'>
+            <h3>Smiling</h3>
+            <video controls loop width="540" height="auto">
+                <source src="videos/1/video_Smiling/output.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</div>
+
+<!--Vertical spacing-->
+<br/> <br/>
+
+<div class='parent'>
+    <div style="text-align:center">
+        <div class='child inline-block-child'>
+            <h3>Arched Eyebrows</h3>
+            <video controls loop width="540" height="auto">
+                <source src="videos/2/video_Arched_Eyebrows/output.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class='child inline-block-child'>
+            <h3>Smiling</h3>
+            <video controls loop width="540" height="auto">
+                <source src="videos/2/video_Smiling/output.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</div>
+
+<!--Vertical spacing-->
+<br/> <br/>
+
+<div class='parent'>
+    <div style="text-align:center">
+        <div class='child inline-block-child'>
+            <h3>Arched Eyebrows</h3>
+            <video controls loop width="540" height="auto">
+                <source src="videos/5/video_Arched_Eyebrows/output.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class='child inline-block-child'>
+            <h3>Big Nose</h3>
+            <video controls loop width="540" height="auto">
+                <source src="videos/5/video_Big_Nose/output.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</div>
+
+<!--Vertical spacing-->
+<br/> <br/> <br/>
+
+<!-- -->
+<!--CelebA-->
+<!-- -->
+<h2>CelebA results</h2>
+
+<div class='parent'>
+    <div style="text-align:center">
+        <div class='child inline-block-child'>
+            <video controls loop width="540" height="auto">
+                <source src="videos/celeba_lr_warp/7/output.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class='child inline-block-child'>
+            <video controls loop width="540" height="auto">
+                <source src="videos/celeba_lr_warp/8/output.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</div>
+
+<!--Vertical spacing-->
+<br/>
+
+<div class='parent'>
+    <div style="text-align:center">
+        <div class='child inline-block-child'>
+            <video controls loop width="540" height="auto">
+                <source src="videos/celeba_lr_warp/0/output.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class='child inline-block-child'>
+            <video controls loop width="540" height="auto">
+                <source src="videos/celeba_lr_warp/2/output.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</div>
+
+<!--Vertical spacing-->
+<br/> <br/>
+
+<h3>Partial edits</h3>
+
+<div class='parent'>
+    <div style="text-align:center">
+        <div class='child inline-block-child'>
+            <h4>Smile</h4>
+            <video controls loop width="540" height="auto">
+                <source src="videos/celeba_interpolation/Smile/output.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class='child inline-block-child'>
+            <h4>Big Nose</h4>
+            <video controls loop width="540" height="auto">
+                <source src="videos/celeba_interpolation/Big%20nose/output.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</div>
+
+<br/>
+
+<div class='parent'>
+    <div style="text-align:center">
+        <div class='child inline-block-child'>
+            <h4>Arched eyebrows</h4>
+            <video controls loop width="540" height="auto">
+                <source src="videos/celeba_interpolation/Arched%20eyebrows/output.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class='child inline-block-child'>
+            <h4>Narrowed eyes</h4>
+            <video controls loop width="540" height="auto">
+                <source src="videos/celeba_interpolation/Narrowed%20eyes/output.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</div>
+
+<br/>
+
+<div class='parent'>
+    <div style="text-align:center">
+        <div class='child inline-block-child'>
+            <h4>Pointy nose</h4>
+            <video controls loop width="540" height="auto">
+                <source src="videos/celeba_interpolation/Pointy%20nose/output.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</div>
+
+<!--Vertical spacing-->
+<br/> <br/> <br/>
+
+<!-- -->
+<!--RafD-->
+<!-- -->
+<h2>RafD results</h2>
+
+<div class='parent'>
+    <div style="text-align:center">
+        <h3>High resolution</h3>
+        <div class='child inline-block-child'>
+            <video controls loop width="540" height="auto">
+                <source src="videos/rafd_comparison/hr/0/output.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class='child inline-block-child'>
+            <video controls loop width="540" height="auto">
+                <source src="videos/rafd_comparison/hr/1/output.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</div>
+
+<div class="content">
+    <div style="text-align:center">
+        <h3>Low resolution</h3>
+        <video controls loop width="1080" height="auto">
+            <source src="videos/rafd_comparison/lr/output.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+<!--Vertical spacing-->
+<br/> <br/> <br/>
+
+<div></div>
+
+</body>
+
+</html>
