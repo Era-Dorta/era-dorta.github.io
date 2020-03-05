@@ -1,0 +1,7 @@
+@InProceedings{Dorta_2020_WarpGAN,
+author = {Dorta, Garoe and Vicente, Sara and Campbell, Neill D. F. and Simpson, Ivor J. A.},
+title = {The GAN that Warped: Semantic Attribute Editing with Unpaired Data},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
+} 
