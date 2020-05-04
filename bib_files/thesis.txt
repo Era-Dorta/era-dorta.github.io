@@ -3,6 +3,6 @@
   title   = "Learning models for intelligent photo editing",
   school  = "University of Bath",
   address = "Bath, UK",
-  year    = 2020,
-  month   = jan
+  year    = 2019,
+  month   = august
 }
